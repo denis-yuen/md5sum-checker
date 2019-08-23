@@ -9,4 +9,10 @@ task checkerTask {
   runtime {
     docker: "quay.io/agduncan94/checker-md5sum"
   }
+  
+  meta {
+    author: "Funk it Souza Falooza"
+    email: "not-all-that-broken@gmail.com"
+    description: "This is Athens"
+  }
 }
